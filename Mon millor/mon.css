@@ -1,0 +1,148 @@
+body
+{
+	/*background-color: #88B4DC;*/
+}
+
+#header
+{
+	background-color: #52E93A;
+}
+#logo
+{
+	height: 100px;
+	background-color: #A64600;
+}
+#title
+{
+	font-family: Verdana, Verdana, Geneva, sans-serif;
+	text-align: center;
+	font-size: 5em;
+	height: 100px;
+	background-color: #FF9140;
+}
+#content
+{
+	height: 540px;
+	/*background-color: #63DEB0;*/
+}
+#footer
+{
+	height: 42px;
+	background-color: #FFC471;
+}
+
+.lateral, .dist
+{
+	height: 540px;
+	/*background-color: #FFB797;*/
+}
+
+.mig
+{
+	height: 540px;
+	/*background-color: #134878;*/
+}
+
+
+#rell
+{
+	height: 5%;
+}
+
+#contIzq
+{
+	vertical-align: middle;
+	margin-top: auto;
+	height: 90%;
+
+}
+#contDer
+{
+	height: 90%;
+	border-left:1px solid black;
+
+}
+
+#contIzqFixed
+{
+	height: 100%;
+	background-color: #FF4540;
+	overflow: scroll;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#contDerFixed
+{
+	height: 100%;
+	background-color: #FF4540;
+	overflow: scroll;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.dist
+{
+	height: 100%;
+}
+
+#login
+{
+	margin-top:2%;
+}
+
+#logForm
+{
+	width: 100%;
+}
+
+.tbLog
+{
+	width: 100%;
+}
+.Log
+{
+	width:32%;
+}
+
+#logToogle
+{
+	/*background-color: #67E667;*/
+}
+
+#fLog
+{
+	/*background-color: #67E667;*/
+}
+
+@media(max-width: 991px){
+	#content
+	{
+		height: 589px;
+	}
+	#title
+	{
+		font-size: 3em;
+		height: 55px;
+	}
+	#contIzq
+	{
+		border-bottom:1px solid black;
+		height: 55%;		
+	}
+	#contDer
+	{
+		height: 55%;
+	}
+	.Log
+	{
+		width:30%;
+	}
+}
+
+@media(max-width: 767px){
+	.Log
+	{
+		width:100%;
+	}
+}
