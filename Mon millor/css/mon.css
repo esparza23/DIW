@@ -1,0 +1,290 @@
+body {
+	margin: 0;
+	height: 100%;
+	/*background-color: #e4e9ce;*/
+}
+.container-liquid {
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+#header
+{
+	background-color: #FFF;
+	color:#552E01;
+	border-bottom:2px solid #552E01;
+
+}
+#earth
+{
+	font-size: 550%;
+	padding-left: 10%;
+}
+#logo
+{
+	height: 15%;
+	min-height: 100px;
+	max-height: 15%;
+	/*height: 100px;*/
+	/*background-color: #FFC471;*/
+}
+#title
+{
+	height: 15%;
+	min-height: 100px;
+	max-height: 15%;
+	font-family: Verdana, Verdana, Geneva, sans-serif;
+	text-align: center;
+	font-size: 5em;
+	/*background-color: #FFC471;*/
+}
+#content
+{
+	height: 80%;
+	min-height: 552px;
+	/*min-height: 540px;*/
+	/*background-color: #63DEB0;*/
+}
+
+#footer
+{
+	height: 3.6%;
+	font-size: 0.7em;
+	min-height: 26px;
+	padding-left: 1%;
+	padding-top: 0.5%;
+	border-top:1px solid #4E9304;
+	background-color:#ADEA6A; 
+	color:#552E01;
+	
+}
+
+#rell
+{
+	height: 5%;
+}
+
+
+#contIzq
+{
+	/*
+	vertical-align: middle;
+	margin-top: auto;
+	*/
+	height: 90%;
+}
+
+#contDer
+{
+	/*border-left:1px solid black;*/
+	height: 90%;
+}
+
+
+#contIzqFixed
+{
+	height: 100%;
+	/*
+	overflow: scroll;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #FF4540;
+	*/
+}
+
+#remarc
+{
+	font-weight: bold;
+	font-size: 1.3em;
+}
+#info
+{
+	font-size: 1.2em;
+	text-align: justify;
+}
+
+#contDerFixed
+{
+	padding-top: 5%;
+	height: 100%;
+	/*
+	overflow: scroll;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #FF4540;
+	*/
+}
+
+.lateral, .dist
+{
+	height: 540px;
+	/*background-color: #FFB797;*/
+}
+
+.mig
+{
+	height: 540px;
+	/*background-color: #134878;*/
+}
+
+.dist
+{
+	/*height: 100%;*/
+}
+
+#login,#register
+{
+	margin-top:2%;
+}
+
+#regForm
+{
+	border:0px solid black;
+}
+#logForm
+{
+	border:0px solid black;
+	width: 100%;
+}
+
+.tbLog
+{
+	width: 100%;
+}
+
+.Reg
+{
+	width:45%;
+}
+
+.tbReg
+{
+	width: 100%;
+}
+.Log
+{
+	width:30%;
+}
+
+#fReg,#fLog
+{
+	background-color: #ADEA6A;
+	border:2px solid #4E9304;
+	padding:2% 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#butReg
+{
+	margin-top: 3%;
+}
+
+#regForm
+{
+	width:100%;
+}
+
+#logToogle
+{
+	/*background-color: #67E667;*/
+}
+
+#fLog
+{
+	/*background-color: #67E667;*/
+}
+#contDerFixed
+{
+	text-align: center;
+	font-size: 2em;
+}
+
+@media(max-width: 991px){
+	
+	#content
+	{
+
+	}
+	#title
+	{
+		font-size: 3em;
+		height: 55px;
+		height: 10%;
+		min-height: 55px;
+		max-height: 10%;
+	}
+	#logToogle,#regToogle
+	{
+		background-color: #4E9304;
+		border:1px solid #4E9304;
+		color:#FFF;
+	}
+	.letra
+	{
+		color:white;
+	}
+	/*
+	#contIzq
+	{
+		border-bottom:1px solid black;	
+		height: 90%;
+	}
+	#contDer
+	{
+		min-height: 40%;
+		max-height: 50%;
+		height: 50%;
+	}*/
+	#contIzq
+	{
+		height: auto;
+	}
+	#contDer
+	{
+		height: auto;
+	}
+	#contIzqFixed
+	{
+		height: auto;
+	}
+	#contDerFixed
+	{
+		height: auto;
+	}
+	.Log
+	{
+		width:30%;
+	}
+	.Reg
+	{
+		width:45%;
+	}
+
+	#fReg,#fLog
+	{
+		background-color: #ADEA6A;
+		border:1px solid #4E9304;
+		padding:0 0;
+		padding-left: 4%;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+	}
+
+}
+
+@media(max-width: 767px){
+	.Log
+	{
+		width:100%;
+	}
+
+	.Reg
+	{
+		width:100%;
+	}
+}
