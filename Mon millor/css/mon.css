@@ -11,8 +11,8 @@ body {
 #header
 {
 	background-color: #FFF;
-	color:#552E01;
-	border-bottom:2px solid #552E01;
+	color:#248ee8;
+	border-bottom:2px solid #03335b;
 
 }
 #earth
@@ -53,9 +53,9 @@ body {
 	min-height: 26px;
 	padding-left: 1%;
 	padding-top: 0.5%;
-	border-top:1px solid #4E9304;
-	background-color:#ADEA6A; 
-	color:#552E01;
+	border-top:1px solid #03335b;
+	background-color:#FFF; 
+	color:#000;
 	
 }
 
@@ -78,6 +78,7 @@ body {
 {
 	/*border-left:1px solid black;*/
 	height: 90%;
+	color:#248ee8;
 }
 
 
@@ -97,6 +98,7 @@ body {
 {
 	font-weight: bold;
 	font-size: 1.3em;
+	color:#248ee8;
 }
 #info
 {
@@ -170,8 +172,8 @@ body {
 
 #fReg,#fLog
 {
-	background-color: #ADEA6A;
-	border:2px solid #4E9304;
+	background-color: #FFF;
+	border:2px solid #03335b;
 	padding:2% 0;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -203,6 +205,39 @@ body {
 	font-size: 2em;
 }
 
+.menuBar
+{
+	width: 100%;
+
+	text-align: center;
+}
+.menu
+{
+	width: 33.3%;
+}
+#amigos
+{
+	height: 80%;
+	border:1px solid black;
+	overflow:scroll;
+}
+.amigo
+{
+	margin-top: 2%;
+}
+.imgAm
+{
+	border:1px solid black;
+}
+.imgBa
+{
+	margin-right: 3%;
+}
+.verPerfil
+{
+	float: right;
+}
+
 @media(max-width: 991px){
 	
 	#content
@@ -219,8 +254,8 @@ body {
 	}
 	#logToogle,#regToogle
 	{
-		background-color: #4E9304;
-		border:1px solid #4E9304;
+		background-color: #248ee8;
+		border:1px solid #03335b;
 		color:#FFF;
 	}
 	.letra
@@ -266,13 +301,19 @@ body {
 
 	#fReg,#fLog
 	{
-		background-color: #ADEA6A;
-		border:1px solid #4E9304;
 		padding:0 0;
 		padding-left: 4%;
+		border:1px solid #03335b;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		/*
+		background-color: #ADEA6A;
+		border:1px solid #4E9304;
 		-webkit-border-radius: 5px;
 		-moz-border-radius: 5px;
 		border-radius: 5px;
+		*/
 	}
 
 }
