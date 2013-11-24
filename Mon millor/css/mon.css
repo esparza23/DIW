@@ -218,17 +218,14 @@ body {
 #amigos
 {
 	height: 80%;
-	border:1px solid black;
+	border:1px solid #03335b;
 	overflow:scroll;
 }
 .amigo
 {
 	margin-top: 2%;
 }
-.imgAm
-{
-	border:1px solid black;
-}
+
 .imgBa
 {
 	margin-right: 3%;
@@ -237,9 +234,14 @@ body {
 {
 	float: right;
 }
+.amigo
+{
+	padding-bottom: 2%;
+	margin-bottom: 2%;
+	border-bottom:1px solid #03335b;
+}
 
 @media(max-width: 991px){
-	
 	#content
 	{
 
@@ -252,7 +254,7 @@ body {
 		min-height: 55px;
 		max-height: 10%;
 	}
-	#logToogle,#regToogle
+	#logToogle,#regToogle,#menuToogle
 	{
 		background-color: #248ee8;
 		border:1px solid #03335b;
@@ -299,6 +301,11 @@ body {
 		width:45%;
 	}
 
+	.menu
+	{
+		width: 100%;
+	}
+
 	#fReg,#fLog
 	{
 		padding:0 0;
@@ -315,7 +322,10 @@ body {
 		border-radius: 5px;
 		*/
 	}
-
+	.imgAm,.imgNivel,.imgBa
+	{
+		margin-bottom: 2%;
+	}
 }
 
 @media(max-width: 767px){
