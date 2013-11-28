@@ -2,14 +2,24 @@
 <html>
 	<head>
 		<title>Mon Millor</title>
+		<meta charset="UTF-8">
 		<link rel="icon" type="image/png" href="img/favicon.png" />
+
 		<!--- Cargar local - -->
-		
+		<!--
 		<script src="../../../DWEC/DWEC/Jquery/jquery-2.0.3.min.js" type="text/javascript"></script>
 		<script src="../../../DWEC/DWEC/Bootstrap/js/bootstrap.js" type="text/javascript"></script>
-		<script src="mon.js" type="text/javascript"></script>
-		<!--<link rel="stylesheet" type="text/css" href="../../../DWEC/DWEC/Bootstrap/css/bootstrap-theme.css">-->
 		<link rel="stylesheet" type="text/css" href="../../../DWEC/DWEC/Bootstrap/css/bootstrap.css">
+		-->
+		<!-- Cargar desde Github -->
+		
+		<script src="https://rawgithub.com/esparza23/DWEC/master/Jquery/jquery-2.0.3.min.js"></script>
+		<script src="https://rawgithub.com/esparza23/DWEC/master/Bootstrap/js/bootstrap.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://rawgithub.com/esparza23/DWEC/master/Bootstrap/css/bootstrap.css"></link>
+
+
+		<!-- Librerias propias -->
+		<script src="js/mon.js" type="text/javascript"></script>
 		<link rel="stylesheet" type="text/css" href="css/mon.css">
 		<link rel="stylesheet" type="text/css" href="css/flaticon.css">
 	</head>
@@ -20,16 +30,13 @@
 					<div id="header" class="row">
 						<div id="logo" class="col-md-2 visible-md visible-lg">
 							<div class="row">
-									<!--
-									<img id="logoImg" src="img/BW.png" height="100" width="100" class="center-block visible-md visible-lg">
-									-->
-									<span id="earth" class="center-block flaticon-world8"></span>
+								<span id="earth" class="center-block flaticon-world8"></span>
 							</div>
 						</div>
 						<div id="title" class="col-md-10">
 							<div class="row">
 								<div class="col-md-10">
-									<span >Un M&oacute;n Millor</span>
+									<span >Un Món Millor</span>
 								</div>
 								<div class="col-md-2"></div>
 							</div>
@@ -55,9 +62,9 @@
 											<div class="row" style="margin-top:5%">
 												<div class="col-md-1"></div>
 												<div id="info" class="col-md-10">
-												Un M&oacute;n Millor es una xarxa social ideada per fomentar les accions ecologistes amb l'objectiu de beneficiar el nostre entorn i afavorir la conservaci&oacute; del medi ambient. Comparteix amb els teus amics les teves accions i aconsegueix arribar a l'esgla&oacute; m&eacute;s alt de la nostra societat.
+												Un Món Millor es una xarxa social ideada per fomentar les accions ecologistes amb l'objectiu de beneficiar el nostre entorn i afavorir la conservació del medi ambient. Comparteix amb els teus amics les teves accions i aconsegueix arribar a l'esglaó més alt de la nostra societat.
 												</br>
-												<span id="remarc">Entra ara </span> i podr&aacute;s col&middot;laborar amb milers d'usuaris de tot el m&oacute;n.
+												<span id="remarc">Entra ara </span> i podràs col·laborar amb milers d'usuaris de tot el món.
 												</div>
 												<div class="col-md-1"></div>
 											</div>
@@ -72,7 +79,7 @@
 											<div class="row">
 												<div class="col-md-12">
 													<!-- Login Form -->
-													<span class="visible-md visible-lg">Login</span>
+													<span class="visible-md visible-lg">Inscriu-te</span>
 													<nav id="login" class="navbar navbar-default " role="navigation">
 														<!-- Brand and toggle get grouped for better mobile display -->
 														<div id="logToogle" class="navbar-header">
@@ -82,7 +89,7 @@
 														      <span class="icon-bar"></span>
 														      <span class="icon-bar"></span>
 														    </button>
-														    <a class="navbar-brand visible-xs visible-sm" href="#" style="color:white">Login</a>
+														    <a class="navbar-brand visible-xs visible-sm" href="#" style="color:white">Inscriu-te</a>
 														  </div>
 														<!-- Collect the nav links, forms, and other content for toggling -->
 														<div id="fLog" class="collapse navbar-collapse" >
@@ -93,12 +100,12 @@
 														      <div class="form-group Log">
 														        <input type="password" class="form-control tbLog" placeholder="Password">
 														      </div>
-														      <button type="submit" class="btn btn-primary Log">Login</button>
+														      <a href="perfil.html" class="btn btn-primary Log">Inscriure's</a>
 														    </form>
 														</div><!-- /.navbar-collapse -->
 													</nav>
 													<!-- Register Form -->
-													<span class="visible-md visible-lg">Registro</span>
+													<span class="visible-md visible-lg">Registrat</span>
 													<nav id="register" class="navbar navbar-default " role="navigation">
 														<!-- Brand and toggle get grouped for better mobile display -->
 														<div id="regToogle" class="navbar-header">
@@ -108,7 +115,7 @@
 														      <span class="icon-bar"></span>
 														      <span class="icon-bar"></span>
 														    </button>
-														    <a class="navbar-brand visible-xs visible-sm" href="#" style="color:white">Registro</a>
+														    <a class="navbar-brand visible-xs visible-sm" href="#" style="color:white">Registrat</a>
 														  </div>
 														<!-- Collect the nav links, forms, and other content for toggling -->
 														<div id="fReg" class="collapse navbar-collapse" >
@@ -125,7 +132,7 @@
 														      <div class="form-group Reg">
 														        <input type="password" class="form-control tbReg" placeholder="Password">
 														      </div>
-														      <button id="butReg" type="submit" class="btn btn-primary Reg center-block">Registro</button>
+														      <a href="perfil.html" id="butReg" class="btn btn-primary Reg center-block">Registrar</a>
 														    </form>
 														</div><!-- /.navbar-collapse -->
 													</nav>
@@ -140,7 +147,7 @@
 					</div>
 					<div class="row ">
 						<div id="footer" class="col-md-12 visible-md visible-lg">
-							&copy;  Un M&oacute;n Millor S.A. - Centre d'Estudis Politecnics - DAW2A
+							&copy;  Un Món Millor S.A. - Centre d'Estudis Politecnics - DAW2A
 						</div>
 					</div>
 				</div>

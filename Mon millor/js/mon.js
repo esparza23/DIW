@@ -1,3 +1,5 @@
+//Este JS sirve para cambiar como se muestran los divs de mon.html, para que sea de una manera mas razonable.
+
 function resolution()
 {
     if ($(window).width() < 992) {

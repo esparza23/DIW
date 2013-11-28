@@ -1,7 +1,6 @@
 body {
 	margin: 0;
 	height: 100%;
-	/*background-color: #e4e9ce;*/
 }
 .container-liquid {
 	padding: 0 15px;
@@ -25,8 +24,6 @@ body {
 	height: 15%;
 	min-height: 100px;
 	max-height: 15%;
-	/*height: 100px;*/
-	/*background-color: #FFC471;*/
 }
 #title
 {
@@ -36,18 +33,16 @@ body {
 	font-family: Verdana, Verdana, Geneva, sans-serif;
 	text-align: center;
 	font-size: 5em;
-	/*background-color: #FFC471;*/
 }
 #content
 {
 	height: 80%;
 	min-height: 552px;
-	/*min-height: 540px;*/
-	/*background-color: #63DEB0;*/
 }
 
 #footer
 {
+	position: fixed;
 	height: 3.6%;
 	font-size: 0.7em;
 	min-height: 26px;
@@ -56,7 +51,7 @@ body {
 	border-top:1px solid #03335b;
 	background-color:#FFF; 
 	color:#000;
-	
+	bottom: 0px;
 }
 
 #rell
@@ -67,16 +62,11 @@ body {
 
 #contIzq
 {
-	/*
-	vertical-align: middle;
-	margin-top: auto;
-	*/
 	height: 90%;
 }
 
 #contDer
 {
-	/*border-left:1px solid black;*/
 	height: 90%;
 	color:#248ee8;
 }
@@ -85,13 +75,6 @@ body {
 #contIzqFixed
 {
 	height: 100%;
-	/*
-	overflow: scroll;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	background-color: #FF4540;
-	*/
 }
 
 #remarc
@@ -110,30 +93,11 @@ body {
 {
 	padding-top: 5%;
 	height: 100%;
-	/*
-	overflow: scroll;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	background-color: #FF4540;
-	*/
 }
 
-.lateral, .dist
+.lateral, .dist, .mig
 {
 	height: 540px;
-	/*background-color: #FFB797;*/
-}
-
-.mig
-{
-	height: 540px;
-	/*background-color: #134878;*/
-}
-
-.dist
-{
-	/*height: 100%;*/
 }
 
 #login,#register
@@ -169,6 +133,16 @@ body {
 {
 	width:30%;
 }
+#fMenu
+{
+	background-color: #FFF;
+	border:2px solid #03335b;
+	padding:0;
+}
+.menu:hover
+{
+	background-color: #e7e7e7;
+}
 
 #fReg,#fLog
 {
@@ -190,25 +164,20 @@ body {
 	width:100%;
 }
 
-#logToogle
-{
-	/*background-color: #67E667;*/
-}
-
-#fLog
-{
-	/*background-color: #67E667;*/
-}
 #contDerFixed
 {
 	text-align: center;
 	font-size: 2em;
 }
 
+#menu
+{
+	margin-top: 2%;
+}
+
 .menuBar
 {
 	width: 100%;
-
 	text-align: center;
 }
 .menu
@@ -217,9 +186,7 @@ body {
 }
 #amigos
 {
-	height: 80%;
 	border:1px solid #03335b;
-	overflow:scroll;
 }
 .amigo
 {
@@ -240,6 +207,107 @@ body {
 	margin-bottom: 2%;
 	border-bottom:1px solid #03335b;
 }
+
+#subir2
+{
+	position: fixed;
+	width:70px;
+	top:10px;
+	left: 10px;
+	padding: 10px 0;	
+}
+
+#subir
+{
+	position: fixed;
+	width:70px;
+	margin-left: 93%;
+	margin-top: -10%;
+	padding: 10px 0;
+}
+
+#progreso
+{
+	margin-top:8%;
+	margin-bottom: 5%;
+}
+
+#timeline
+{
+	padding-top: 1%;
+}
+#titHistorial
+{
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+#titTrofeos
+{
+	border-top:2px solid #03335b;
+	margin-top: 0;
+}
+#titTrofeos,#titHistorial
+{
+	padding-top: 2%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	color:#03335b;
+}
+
+#trofeos
+{
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 150px;
+}
+#textNova
+{
+	height: 10%;
+	width: 100%;
+}
+
+#butNova,#butImg
+{
+	margin-top: 8%;
+}
+
+#historial
+{
+	max-height: 212px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+#subir2
+{
+	display:none;
+}
+.imgHist
+{
+	padding :3px;
+	border:1px solid #03335b;
+}
+
+.text
+{
+	padding: 10% 0;
+}
+
+.imgBaPer
+{
+	margin:3% 3.5%;
+}
+
+.imgAcc
+{
+	margin:2%;
+}
+
+#accions
+{
+	list-style: none;
+}
+
 
 @media(max-width: 991px){
 	#content
@@ -264,31 +332,8 @@ body {
 	{
 		color:white;
 	}
-	/*
-	#contIzq
-	{
-		border-bottom:1px solid black;	
-		height: 90%;
-	}
-	#contDer
-	{
-		min-height: 40%;
-		max-height: 50%;
-		height: 50%;
-	}*/
-	#contIzq
-	{
-		height: auto;
-	}
-	#contDer
-	{
-		height: auto;
-	}
-	#contIzqFixed
-	{
-		height: auto;
-	}
-	#contDerFixed
+
+	#contIzq,#contDer,#contIzqFixed,#contDerFixed
 	{
 		height: auto;
 	}
@@ -305,8 +350,12 @@ body {
 	{
 		width: 100%;
 	}
+	.menuBar
+	{
+		width: auto;
+	}
 
-	#fReg,#fLog
+	#fReg,#fLog,#fMenu
 	{
 		padding:0 0;
 		padding-left: 4%;
@@ -314,28 +363,38 @@ body {
 		-webkit-border-radius: 0px;
 		-moz-border-radius: 0px;
 		border-radius: 0px;
-		/*
-		background-color: #ADEA6A;
-		border:1px solid #4E9304;
-		-webkit-border-radius: 5px;
-		-moz-border-radius: 5px;
-		border-radius: 5px;
-		*/
 	}
 	.imgAm,.imgNivel,.imgBa
 	{
 		margin-bottom: 2%;
 	}
-}
+	#subir
+	{
+		display:none;
+	}
+	#progreso 
+	{
+		clear:both;
+	}
+
+	.imgHist
+	{
+		float:left;
+	}
+	.text
+	{
+		float:left;
+		padding:5% 0;
+		padding-left: 5%;
+	}
 
 @media(max-width: 767px){
-	.Log
+	.Log,.Reg
 	{
 		width:100%;
 	}
-
-	.Reg
+	.text
 	{
-		width:100%;
+		max-width: 250px;
 	}
 }
