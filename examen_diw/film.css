@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+	height: 100%;
+	background-color: black;
+}
+.container-liquid {
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+#cap
+{
+	height: 98px;
+	background-color: black;
+	border-bottom:3px solid white;
+}
+
+#logo,#menu
+{
+	height: 100%;
+	color:white;
+}
+
+#logo
+{
+	border-right:1px solid black;
+	box-sizing:border-box;
+}
+
+#menu ul
+{
+	float:right;
+}
+
+.breadcrumb
+{
+	float:right;
+	background-color: black;
+	color:white;
+}
+#col1,#col2,#col3,#col4
+{
+	height: 600px;
+}
+#col1{
+	background-color: black;
+}
+#col2{
+	background-color: black;
+}
+#col3{
+	background-color: black;
+}
+#col4{
+	background-color: black;
+}
+
+#col11
+{
+	height: 200px;
+	background-color: white;
+}
+
+#col121
+{
+	background-color: white;
+	height: 300px;
+}
+#col122
+{
+	background-color: white;
+	height: 360px;
+}
+#col123
+{
+	background-color: white;
+	height: 100px;
+}
+
+#col21
+{
+	height: 220px;
+	background-color: white;
+}
+
+#col22
+{
+	height: 300px;
+	background-color: white;
+}
+
+#col31
+{
+	height: 250px;
+	background-color:white;
+}
+#col311
+{
+	height: 80px;
+	background-color:white;
+}
+#col312
+{
+	height: 130px;
+	background-color:white;
+}
+
+#col121,#col122,#col123,#col11,#col21,#col22,#col31,#col311,#col312
+{
+	border:1px solid black;
+	box-sizing:border-box;
+	margin-top:15px;
+}
